@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>ПРИВЕТ</h1>
-</body>
-</html>
+@extends('template')
+
+@section('main_content')
+<div class="bg-warning pl-4 py-5 rounded">
+    <h1 class="display-4"> Страница про нас </h1>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <a name="" id="" class="btn btn-danger" href="#" role="button">Отзывы >></a>
+</div>
+@endsection

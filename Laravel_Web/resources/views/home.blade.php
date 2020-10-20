@@ -1,25 +1,29 @@
-<!DOCTYPE html>
-<html lang="ru">
+@extends('template')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-</head>
+@section('main_content')
+<div class="bg-warning pl-4 py-5 rounded">
+    <h1 class="display-4"> Главная страница!</h1>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <a name="" id="" class="btn btn-danger" href="#" role="button">Отзывы >></a>
+</div>
 
-<body class="bg-dark">
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto text-white font-weight-normal">LARAVEL-template</h5>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-white" href="/">Главная</a>
-            <a class="p-2 text-white" href="/about">Про нас</a>
-        </nav>
-        <a class="btn btn-outline-warning" href="#">Отзывы</a>
+<div class="d-flex justify-content-between  p-2">
+    <div class="w-25">
+        <h1 class="text-center">Heading</h1>
+        <p class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <a name="" id="" class="btn btn-secondary" href="#" role="button">Подробнее >></a>
     </div>
-</body>
+    <div class="w-25">
+        <h1 class="text-center">Heading</h1>
+        <p class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <a name="" id="" class="btn btn-secondary" href="#" role="button">Подробнее >></a>
+    </div>
+    <div class="w-25">
+        <h1 class="text-center">Heading</h1>
+        <p class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <a name="" id="" class="btn btn-secondary" href="#" role="button">Подробнее >></a>
+    </div>
+</div>
 
-</html>
+
+@endsection
