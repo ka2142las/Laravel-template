@@ -1,5 +1,7 @@
 @extends('template')
-
+@section('title')
+ главная страница
+@endsection
 @section('main_content')
 <div class="bg-warning pl-4 py-5 rounded">
     <h1 class="display-4"> Главная страница!</h1>

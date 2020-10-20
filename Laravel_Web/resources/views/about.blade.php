@@ -1,4 +1,7 @@
 @extends('template')
+@section('title')
+Страница про нас
+@endsection
 
 @section('main_content')
 <div class="bg-warning pl-4 py-5 rounded">
